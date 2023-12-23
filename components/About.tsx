@@ -57,7 +57,7 @@ const About = (props: Props) => {
                     <span className=' text-[#E69254] xl:p-2'>
                         Real World  
                     </span> Problems, 
-                     specializing in Machine Learning & Front-end Web Development,
+                     specializing in Web Development
                     with a strong proficiency in{" "}  
                     <span className=' underline decoration-[#D26412] xl:p-2'>
                      Data Structures & Algorithms  
@@ -65,7 +65,7 @@ const About = (props: Props) => {
                 </p> 
                 
                 <p className='text-sm pt-2 xl:text-xl  md:text-base'>
-                    I &#x2764; to participate in {" "}
+                    I also &#x2764; to participate in {" "}
                     <span className='text-[#E69254] xl:p-2'>
                         Hackathons
                     </span> {" "} 
@@ -89,11 +89,11 @@ const About = (props: Props) => {
                }}
                viewport={{once:true}}
             className='pt-2 '>
-                    <Link href="https://github.com/KINSHUK69">  
+                    <Link href="https://github.com/kinshuk-dewari">  
                         <button className="hoverButton z-0 tracking-[2px] md:text-xl font-bold">GitHub</button>                
                     </Link>
 
-                    <Link href="https://drive.google.com/file/d/12avpf0dyZZecP3Z4BRDPFwUpkA4M3KLf/view?usp=sharing" >
+                    <Link href="https://drive.google.com/file/d/1YEXungLWUCD9w-t68csnFO62Qvl7pJJK/view?usp=sharing" >
                         <button className="hoverButton z-0 tracking-[2px] md:text-xl font-bold">My CV</button>
                     </Link>    
                            
