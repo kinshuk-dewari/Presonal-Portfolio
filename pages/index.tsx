@@ -58,7 +58,7 @@ const Home: NextPage = () => {
       </section>
 
       {/* Contact Me Section */}
-      <section id="contact" className="snap-start" >
+      <section id="contact">
         <ContactMe/>
       </section>
       
