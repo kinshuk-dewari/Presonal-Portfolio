@@ -8,11 +8,10 @@ type Props = {
     dates:string;
     imageSrc:string;
     techUsed: { src: string; alt: string; }[];
-    description: string[];  
-    shadowColor:string;  
+    description: string[];
 }
 
-function ExperienceCard({position, companyName,dates, techUsed, description, imageSrc,shadowColor}: Props) {
+function ExperienceCard({position, companyName,dates, techUsed, description, imageSrc}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
     w-[400px] md:w-[500px] xl:w-[600px]  snap-center bg-[#111111] p-10 
