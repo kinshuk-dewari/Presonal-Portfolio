@@ -7,8 +7,7 @@ import ProjectCard from './ProjectCard';
 type Props = {}
 
 function Projects({}: Props) {
-
-  const projects=[1,2,3,4];
+  
 
   return (
     
@@ -25,32 +24,29 @@ function Projects({}: Props) {
         snap-mandatory z-20 scrollbar-thin scrollbar-thumb-rounded-md scrollbar-track-gray-400/20 scrollbar-thumb-[#E2711E]/80'>
           <ProjectCard
             projectName='Ghuunj'
-            projectLink='https://github.com/KINSHUK69/GHUUNJ-Sign-Language-Detection-ML-Project'
+            projectLink='https://github.com/kinshuk-dewari/GHUUNJ-Sign-Language-Detection-ML-Project'
             imageSrc='/Ghuunj.png'
-            description='Empowering individuals with Hearing and Speech impairments through M.L.' 
-            // that converts SIGN Launguage into accessible Text and Audio.'
+            description='Empowering individuals with Hearing and Speech impairments through M.L.'             
           />
           <ProjectCard
             projectName='Presence'
-            projectLink='https://github.com/KINSHUK69/PRESENCE'
+            projectLink='https://github.com/kinshuk-dewari/PRESENCE'
             imageSrc='/Presence.png'
-            description='A Smart Attendance Capturing App ,Using facial recognition and geo-fencing.'
-            // Develpoed for S.I.H 2022, ps SK-794.'            
+            description='A Smart Attendance Capturing App ,Using facial recognition and geo-fencing.'                   
           />
           <ProjectCard
             projectName='Bookify'
-            projectLink='https://github.com/KINSHUK69/Bookify'
+            projectLink='https://github.com/kinshuk-dewari/Bookify'
             imageSrc='/Bookify.png'
-            description='Unlock the World of Books with BOOKIFY.
-            Buy, Share, or Sell Safely and Effortlessly!!'
+            description='Unlock the World of Books with BOOKIFY.'            
           />          
         
         </div>
               
         <div className='w-full absolute top-[30%] bg-[#E2711E]/10 left-0 h-[500px] border-none -skew-y-12 
         
-        '></div>            
-             {/* shadow-2xl shadow-[#E2711E]/10 */}
+        '></div>           
+          
             
       </div>       
 
