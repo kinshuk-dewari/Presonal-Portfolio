@@ -38,12 +38,11 @@ function Skills({}: Props) {
             <SkillR directionright image="../html.png" str="HTML"/>
             <SkillR directionright image="../css.png" str="CSS"/>
             <SkillR directionright image="../js.png" str="JavaScript"/>
-            <SkillR directionright image="../firebase.png" str="FireBase"/>      
+            <SkillR directionright image="../node.png" str="NodeJs"/>         
             <SkillL directionleft image="../tailwind.png"str="TailWind" />
             <SkillL directionleft image="../nextjs.png"str="Next.js" />     
             <SkillL directionleft image="../mysql.png"str="MySql" />     
-            <SkillL directionleft image="../mongodb.png"str="MongoDB" />     
-            
+            <SkillL directionleft image="../mongodb.png"str="MongoDB" />  
             
         </div>
 
