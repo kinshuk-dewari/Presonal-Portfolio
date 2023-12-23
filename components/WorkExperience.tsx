@@ -59,7 +59,7 @@ function WorkExperience({}: Props) {
             <ExperienceCard 
               imageSrc="upwork.jpg"
               position="Freelancer" 
-              companyName="Fiever" 
+              companyName="UpWork" 
               techUsed={[
                 { src: '/react.png', alt: 'React' }, 
                 { src: '/firebase.png', alt: 'FireBase' }, 
