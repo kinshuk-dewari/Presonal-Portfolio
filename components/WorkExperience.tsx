@@ -25,18 +25,16 @@ function WorkExperience({}: Props) {
               position="Freelancer" 
               companyName="Fiever" 
               techUsed={[
+                { src: '/mongodb.png', alt: 'MongoDb' }, 
                 { src: '/react.png', alt: 'React' }, 
-                { src: '/firebase.png', alt: 'FireBase' }, 
-                { src: '/framermotion.png', alt: 'Framet Motion' }, 
+                { src: '/node.png', alt: 'Node JS' }, 
                 { src: '/tailwind.png', alt: 'Tailwind Css' 
               }]}
               dates='Sept 2023 - Present'
               description={[
-                  "I create landing pages for customers,", 
-                  "I create personal portfolio websites,",
-                  "I create full ecommerce websites for clients."
-              ]}
-              shadowColor='#15803d'              
+                  "Bob the Builder for your Projects",                   
+                  "Your FullStack Developer"
+              ]}                           
             />   
             <ExperienceCard 
               imageSrc="amazon.png"
@@ -50,16 +48,14 @@ function WorkExperience({}: Props) {
               }]}
               dates='Lagwa do'
               description={[
-                  "Jo vaha kam krung vo yaha pai laga dunga :)", 
                   "Jo vaha kam krung vo yaha pai laga dunga :)",
-                  "Jo vaha kam krung vo yaha pai laga dunga :)"                  
-              ]}
-              shadowColor='#d97706'              
+                  "white log thoda aesthetic lagra tb lagaya"                                    
+              ]}                           
             />  
             <ExperienceCard 
               imageSrc="upwork.jpg"
               position="Freelancer" 
-              companyName="UpWork" 
+              companyName="Upwork" 
               techUsed={[
                 { src: '/react.png', alt: 'React' }, 
                 { src: '/firebase.png', alt: 'FireBase' }, 
@@ -68,13 +64,10 @@ function WorkExperience({}: Props) {
               }]}
               dates='Soch ra hu yaha suru kr nai ka'
               description={[
-                  "I create landing pages for customers,", 
-                  "I create personal portfolio websites,",
-                  "I create full ecommerce websites for clients."
-              ]}
-              shadowColor='#15803d'              
-            />         
-            
+                "Bob the Builder of your Team",                   
+                "That guy for Your job."
+              ]}                           
+            />      
             
         </div>   
     </motion.div>
