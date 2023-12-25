@@ -26,23 +26,29 @@ function Skills({}: Props) {
 
         <h3 className=' top-36 uppercase text-gray-500 pb-2 tracking-[4px] absolute  pt-4 text-center  font-medium text-lg lg:text-xl xl:pt-8'>Hover over a skill to know them</h3>  
 
-        <div className="grid  grid-cols-2 md:grid-cols-4 gap-5  ">            
-            <SkillR directionright image="../c.png" str="C"/>
-            <SkillR directionright image="../cpp.png" str="C++"/>
-            <SkillR directionright image="../python.png"str="Python" />
-            <SkillR directionright image="../git.png"str="Git" />
-            <SkillL directionleft image="../react.png"str="React" />
-            <SkillL directionleft image="../github.png"str="Github" />
-            <SkillL directionleft image="../photoshop-logo-icon-free-vector.png"str="Photoshop" />
-            <SkillL directionleft image="../xd.png"str="Adobe XD" />
-            <SkillR directionright image="../html.png" str="HTML"/>
-            <SkillR directionright image="../css.png" str="CSS"/>
-            <SkillR directionright image="../js.png" str="JavaScript"/>
-            <SkillR directionright image="../node.png" str="NodeJs"/>         
-            <SkillL directionleft image="../tailwind.png"str="TailWind" />
-            <SkillL directionleft image="../nextjs.png"str="Next.js" />     
-            <SkillL directionleft image="../mysql.png"str="MySql" />     
-            <SkillL directionleft image="../mongodb.png"str="MongoDB" />  
+        <div className="grid  grid-cols-2 md:grid-cols-4 gap-5  ">  
+          
+            <SkillR directionleft image="../mongodb.png"str="MongoDB" />
+            <SkillR directionleft image="../express.png"str="Express" />
+            <SkillR directionleft image="../react.png"str="React" />
+            <SkillR directionright image="../node.png" str="NodeJs"/>
+
+            <SkillL directionright image="../c.png" str="C"/>
+            <SkillL directionright image="../cpp.png" str="C++"/>
+            <SkillL directionright image="../python.png"str="Python" />
+            <SkillL directionleft image="../mysql.png"str="MySql" /> 
+            
+
+            <SkillR directionleft image="../github.png"str="Github" />
+            <SkillR directionleft image="../tailwind.png"str="TailWind" />
+            <SkillR directionleft image="../photoshop-logo-icon-free-vector.png"str="Photoshop" />
+            <SkillR directionleft image="../xd.png"str="Adobe XD" />
+            
+            <SkillL directionright image="../html.png" str="HTML"/>
+            <SkillL directionright image="../css.png" str="CSS"/>
+            <SkillL directionright image="../js.png" str="JavaScript"/>
+            <SkillL directionright image="../git.png"str="Git" />           
+          
             
         </div>
 
