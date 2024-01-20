@@ -19,7 +19,7 @@ function Projects({}: Props) {
             Projects
         </h3> 
 
-        <div className='w-full flex overflow-x-scroll overflow-y-hidden p-10
+        <div className='w-screen flex overflow-x-scroll overflow-y-hidden p-10
         snap-x mt-8 z-50 snap-mandatory scrollbar-thin 
         scrollbar-thumb-rounded-full scrollbar-track-gray-400/20
         scrollbar-thumb-[#E2711E]/80'>
