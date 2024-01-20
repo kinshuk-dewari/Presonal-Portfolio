@@ -13,13 +13,16 @@ function WorkExperience({}: Props) {
     whileInView ={{opacity:1}}
     transition={{duration:1.5}}
 
-    className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row
+    className='h-screen flex relative overflow-hidden flex-col text-left 
+    md:flex-row
     max-w-full px-10 justify-evenly mx-auto items-center'>
         <h3 className='text-5xl text-center text-[#E2711E] pb-2 lg:text-7xl font-bold px-10 absolute top-24 uppercase tracking-[14px] '>
             Experience
         </h3>   
 
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-rounded-md scrollbar-track-gray-400/20 scrollbar-thumb-[#E2711E]/80'>   
+        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x 
+        snap-mandatory scrollbar-thin scrollbar-thumb-rounded-md
+         scrollbar-track-gray-400/20 scrollbar-thumb-[#E2711E]/80'>   
             <ExperienceCard 
               imageSrc="fiverr.png"
               position="Freelancer" 

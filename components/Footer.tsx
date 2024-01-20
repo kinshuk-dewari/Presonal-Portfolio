@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
   return (    
-        <div className="flex flex-row overflow-hidden relative w-full bg-[#0e0e0e] bottom-0
+        <div className="flex flex-row overflow-hidden relative w-full bg-[#0e0e0e] bottom-0 p-4
         text-left px-10 justify-between mx-auto items-center z-0 ">
             <div>
                 <Link href="#hero">

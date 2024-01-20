@@ -48,14 +48,18 @@ function Achievements() {
         <div className='flex flex-col justify-between items-start '>
         {navItems.map((item,key) => (            
             
-            <div key={key} className='text-[#c7b6ad] cursor-pointer w-full max-w-7xl space-y-4 flex flex-row items-center justify-between border-b-2 lg:border-b-3 border-b-gray-500'>
-              <h1 className=' text-3xl font-bold uppercase md:text-4xl lg:text-5xl xl:text-7xl'> {item.name} </h1>
-              <span className=' text-gray-500 text-base md:text-lg lg:text-xl uppercase'> {item.position} </span>      
+            <div key={key} className='text-[#c7b6ad] w-full max-w-7xl space-y-4 flex flex-row items-center justify-between border-b-2 lg:border-b-3 border-b-gray-500'>
+              <h1 className=' text-2xl font-bold uppercase md:text-4xl lg:text-5xl xl:text-7xl'> {item.name} </h1>
+              <span className=' ml-1 text-gray-500 text-sm md:text-lg lg:text-xl uppercase'> {item.position} </span>      
 
             </div>
 
         ))}
-
+        <div className='flex gap-1 mt-3 flex-row-reverse w-full'>
+          <div className='bg-[#c7b6ad] h-2 w-2 rounded-full'></div>
+          <div className='bg-[#c7b6ad] h-2 w-2 rounded-full'></div>
+          <div className='bg-[#c7b6ad] h-2 w-2 rounded-full'></div>
+        </div>
         </div>
 
     </motion.div>

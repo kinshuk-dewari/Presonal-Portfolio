@@ -42,7 +42,7 @@ function ExperienceCard({position, companyName,dates, techUsed, description, ima
 
             <div className='flex space-x-2 my-2'>                     {/* tech used  */}
                 {techUsed.map((tech, index) => (
-                    <Image key={index} className='roundeed-full' src={tech.src} width='40' height='40' alt={tech.alt} />
+                    <Image key={index} className='rounded-full' src={tech.src} width='40' height='40' alt={tech.alt} />
                 ))}
             </div>
 

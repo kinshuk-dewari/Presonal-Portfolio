@@ -10,11 +10,11 @@ type Props = {
 
 function ProjectCard({projectName,imageSrc,description,projectLink}:Props)  {
   return (
-    <div  className='w-screen  flex-shrink-0 snap-center flex flex-col space-y-2 items-center justify-center p-20 md:p-44 h-screen'>
-                  <img className='relative h-auto w-auto md:w-auto md:h-[350px]  mx-auto object-cover '
+    <div  className='w-screen  flex-shrink-0 snap-center flex flex-col items-center justify-center pt-10 md:pt-24 z-40 '>
+                  <img className='relative h-auto w-auto md:h-[20rem]  mx-auto object-cover '
                       src={imageSrc}  alt={projectName} />
                   <div className='space-y-4 px-0 md:p-5 max-w-6xl'>
-                      <h4 className='text-4xl text-[#c7b6ad] tracking-[2px] font-semibold text-center uppercase '> {projectName} </h4>                      
+                      <h4 className='text-4xl text-[#c7b6ad] tracking-[2px] font-bold text-center uppercase '> {projectName} </h4>                      
                       <p className='text-xl text-gray-500'>
                         {description}
                       </p>

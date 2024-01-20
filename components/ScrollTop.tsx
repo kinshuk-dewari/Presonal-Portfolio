@@ -9,7 +9,7 @@ const ScrollTop = (props: Props) => {
       
   return (
     <Link href="#hero">
-        <div className='sticky bottom-5 w-full cursor-pointer transition flex item-center justify-center drop-shadow-xl hover:grayscale-1'>         
+        <div className=' sticky bottom-5 w-full cursor-pointer transition flex item-center justify-center drop-shadow-xl hover:grayscale-1'>         
           
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 143 143">
               <g id="Group_17" data-name="Group 17" transform="translate(-98 -690)">

@@ -11,7 +11,7 @@ type Props = {}
 function Hero({}: Props) {
 
     const [text] = useTypewriter({
-            words: ["< FullStack Web Developer />","< Freelancer />","Coffee = Life.exe","Hackathons.py"],
+            words: ["< FullStack.jsx />","< Freelancer.cpp />","< Coffee = Life.exe />","Hackathons.py"],
             loop: true,   
             typeSpeed:40,                  
             delaySpeed:700,
@@ -28,7 +28,7 @@ function Hero({}: Props) {
 
             <div className='z-20'> 
                 
-                <h1 className='text-5xl pb-2 lg:text-7xl font-semibold px-10 '>
+                <h1 className='text-2xl pb-2 md:text-6xl lg:text-7xl font-semibold px-10 '>
                     <div className='overflow-hidden '>
                         <AnimateWords title="Hi&nbsp;there,&nbsp;I'm&nbsp;"/> <br/>
                     </div>
@@ -69,18 +69,18 @@ function Hero({}: Props) {
                         opacity:1
                     }}
                     transition={{
-                        ease:easeIn,
+                        ease:easeIn, 
                         duration:1.8
                     }} 
                 
                     className='pt-2 text-center over'>
                     
                     <Link href="#projects" className='gap-2'>  
-                        <button className="hoverButton tracking-[2px] md:text-xl font-bold">Projects</button>
+                        <button className="hoverButton tracking-[2px] text-sm md:text-xl font-bold">Projects</button>
                     </Link>
 
                     <Link href="#contact" className='gap-2'>                  
-                        <button className="hoverButton tracking-[2px] md:text-xl font-bold">Contact Me</button>
+                        <button className="hoverButton tracking-[2px] text-sm md:text-xl font-bold">Contact Me</button>
                     </Link>               
 
                     
@@ -89,10 +89,13 @@ function Hero({}: Props) {
             </div>            
 
             <motion.div  className='flex flex-col items-center  gap-2 justify-center text-center overflow-hidden'>
-                
-                <motion.img variants={profileAnimation} className=' flex-shrink-0 w-56 h-auto  object-cover z-10 
-            md:w-[540px] md:h-auto xl:w-[700px] xl:h-auto ' width={500} height={500} 
-                src="/me.png"  alt={'My Image'} />
+                {/* h-96 md:h-[36rem] xl:h-[42rem] w-full */}
+                <motion.img variants={profileAnimation} className=' flex-shrink-0 
+                w-56 h-auto  md:w-[440px]  xl:w-[560px]
+                object-cover 
+                z-10 
+            ' width={500} height={500} 
+                src="/profile.jpg"  alt={'My Image'} />
                 
                 <motion.h2 variants={riseWithFade} className='text-sm uppercase text-gray-500 pb-2 tracking-[4px] md:tracking-[12px] xl:tracking-[14px] ' >
                     Software Developer
