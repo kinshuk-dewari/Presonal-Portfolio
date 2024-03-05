@@ -51,9 +51,8 @@ function WorkExperience({}: Props) {
               ]}
               dates='Jan 2024 - Present'
               description={[
-                  "Link : http://sai-agro.org "
-                  "Creates an intuitive UI/UX using locomotive and framer motion for animations. ",
-                  "Create backend and database using mongodb and express",                   
+                  "Creates an intuitive UI/UX using locomotive and framer motion for animations.",
+                  "Created a Admin dashboard for performing CRUD operations to the database."                   
               ]}                           
             />   
             <ExperienceCard 
