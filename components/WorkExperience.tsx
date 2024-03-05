@@ -40,7 +40,7 @@ function WorkExperience({}: Props) {
               ]}                           
             />   
             <ExperienceCard 
-              imageSrc="hero.jpg"
+              imageSrc="sai.png"
               position="Full Stack Web Developer" 
               companyName="SAI Sustainable Agro" 
               techUsed={[
@@ -51,27 +51,11 @@ function WorkExperience({}: Props) {
               ]}
               dates='Jan 2024 - Present'
               description={[
-                  "Create backend and database using mongodb and express",                   
-                  "Creates an intuitive UI/UX using locomotive and framer motion for animations. ",
                   "Link : http://sai-agro.org "
+                  "Creates an intuitive UI/UX using locomotive and framer motion for animations. ",
+                  "Create backend and database using mongodb and express",                   
               ]}                           
             />   
-            <ExperienceCard 
-              imageSrc="amazon.png"
-              position="SDE Intern" 
-              companyName="Amazon" 
-              techUsed={[
-                  { src: '/react.png', alt: 'React' }, 
-                  { src: '/git.png', alt: 'Git' }, 
-                  { src: '/python.png', alt: 'Python' }, 
-                  { src: '/cpp.png', alt: 'C++' 
-              }]}
-              dates='Lagwa do'
-              description={[
-                  "Jo vaha kam krung vo yaha pai laga dunga :)",
-                  "white log thoda aesthetic lagra tb lagaya"                                    
-              ]}                           
-            />  
             <ExperienceCard 
               imageSrc="upwork.jpg"
               position="Freelancer" 
@@ -88,6 +72,22 @@ function WorkExperience({}: Props) {
                 "That guy for Your job."
               ]}                           
             />      
+            <ExperienceCard 
+              imageSrc="amazon.png"
+              position="SDE Intern" 
+              companyName="Amazon" 
+              techUsed={[
+                  { src: '/react.png', alt: 'React' }, 
+                  { src: '/git.png', alt: 'Git' }, 
+                  { src: '/python.png', alt: 'Python' }, 
+                  { src: '/cpp.png', alt: 'C++' 
+              }]}
+              dates='Lagwa do'
+              description={[
+                  "Jo vaha kam krung vo yaha pai laga dunga :)",
+                  "white log thoda aesthetic lagra tb lagaya"                                    
+              ]}                           
+            />  
             
         </div>   
     </motion.div>
