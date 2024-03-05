@@ -40,6 +40,23 @@ function WorkExperience({}: Props) {
               ]}                           
             />   
             <ExperienceCard 
+              imageSrc="hero.jpg"
+              position="Full Stack Web Developer" 
+              companyName="SAI Sustainable Agro" 
+              techUsed={[
+                { src: '/mongodb.png', alt: 'MongoDb' }, 
+                { src: '/react.png', alt: 'React' }, 
+                { src: '/node.png', alt: 'Node JS' }, 
+                { src: '/tailwind.png', alt: 'Tailwind Css'}
+              ]}
+              dates='Jan 2024 - Present'
+              description={[
+                  "Create backend and database using mongodb and express",                   
+                  "Creates an intuitive UI/UX using locomotive and framer motion for animations. ",
+                  "Link : http://sai-agro.org "
+              ]}                           
+            />   
+            <ExperienceCard 
               imageSrc="amazon.png"
               position="SDE Intern" 
               companyName="Amazon" 
