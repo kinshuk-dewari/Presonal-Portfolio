@@ -20,6 +20,7 @@ const Home: NextPage = () => {
     <div className='bg-[#0A0A0A] text-white h-screen snap-y snap-mandtory overflow-y-scroll 
     z-0 overflow-x-hidden scrollbar-thin scrollbar-thumb-rounded-md scrollbar-track-gray-400/20 scrollbar-thumb-[#E2711E]/80'>
       <Head>
+      <link rel="icon" href="/logo.png" />
         <title>Kinshuk's Portfolio</title>
       </Head>     
       
@@ -44,11 +45,11 @@ const Home: NextPage = () => {
         <Projects/>
       </section>      
        {/* Achievements Section  */}
-      <section id="achievements" className="snap-center">
+      <section id="achievements" >
           <Achievements/>  
       </section>
       {/* Experience Section */}
-      <section id="experience" className="snap-center">
+      <section id="experience" >
         <WorkExperience/>
       </section>
 

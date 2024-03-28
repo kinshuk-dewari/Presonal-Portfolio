@@ -26,7 +26,8 @@ function Skills({}: Props) {
 
         <h3 className='top-36 uppercase text-gray-500 pb-2 tracking-[4px] absolute pt-4 text-center  font-medium text-lg lg:text-xl xl:pt-8'>Hover over a skill to know them</h3>  
 
-        <div className="grid  grid-cols-2 md:grid-cols-4 gap-5  ">  
+        {/* <div className="grid  grid-cols-2 md:grid-cols-4 gap-5  ">   */}
+        <div className="grid grid-cols-4 gap-5  ">  
           
             <SkillR directionright image="../mongodb.png"str="MongoDB" />
             <SkillR directionright image="../express.png"str="Express" />

@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { motion } from "framer-motion";
 import Link from 'next/link';
@@ -22,13 +23,13 @@ const About = (props: Props) => {
     
         className='h-screen flex relative flex-col text-center  
         md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <div className="text-5xl text-center text-[#E2711E] pb-2 lg:text-7xl font-bold px-10 absolute top-24 uppercase tracking-[4px] md:tracking-[14px] "> 
+        <h1 className="text-5xl text-center text-[#E2711E] pb-2 lg:text-7xl font-bold px-10 absolute top-24 uppercase tracking-[4px] md:tracking-[14px] "> 
                         About
-            <div className=' pt-4 text-center font-medium text-lg lg:text-xl text-gray-500 tracking-[4px]'>
+            <h2 className=' pt-4 text-center font-medium text-lg lg:text-xl text-gray-500 tracking-[4px]'>
                         my develpoment journey
-            </div>
+            </h2>
         
-        </div> 
+        </h1> 
         
        
        <motion.img
