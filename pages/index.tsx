@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
  
   return (
-    <div className='bg-[#0A0A0A] text-white h-screen snap-y snap-mandtory overflow-y-scroll 
+    <div className='bg-[#0A0A0A] text-white h-screen overflow-y-scroll 
     z-0 overflow-x-hidden scrollbar-thin scrollbar-thumb-rounded-md scrollbar-track-gray-400/20 scrollbar-thumb-[#E2711E]/80'>
       <Head>
       <link rel="icon" href="/logo.png" />
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="snap-center">
+      <section id="projects">
         <Projects/>
       </section>      
        {/* Achievements Section  */}

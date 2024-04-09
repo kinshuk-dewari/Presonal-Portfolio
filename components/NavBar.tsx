@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 type NavItem = {
   name: string;
   link: string;
+  // icon?: string | React.ReactNode;
 };
 
 type MenuButtonProps = {
@@ -55,10 +56,10 @@ const NavBar: React.FC = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const navItems: NavItem[] = [
-    { name: '.Home( )', link: '/' },
     { name: '.About( )', link: '#about' },
     { name: '.Project( )', link: '#projects' },
     { name: '.Achievements( )', link: '#achievements' },
+    { name: '.Experience( )', link: '#experience' },
     { name: '.Skills( )', link: '#skills' },
     { name: '.Contact( )', link: '#contact' },
   ];

@@ -31,8 +31,8 @@ const About = (props: Props) => {
         
         </h1> 
         
-       
-       <motion.img
+        <div className='absolute  top-56 flex items-center justify-center'>
+        <motion.img
             initial={{
                 x:-200,
             }}
@@ -48,7 +48,7 @@ const About = (props: Props) => {
                 src="/p1.jpg"
 
                 className='-mb-20  mt-12 shadow-md shadow-teal-50/40 md:mb-0 flex-shrink-0 w-56 h-auto rounded-md object-cover 
-                md:w-64 md:rounded-lg xl:w-[500px] xl:h-auto '
+                md:w-64 md:rounded-lg xl:w-[500px] xl:h-auto  '
        />
        <div className='space-y-10 px-0  md:px-10 text-center'>
             <h4 className='font-semibold md:text-xl '>
@@ -102,6 +102,9 @@ const About = (props: Props) => {
             </motion.div>
             
        </div>
+        </div>
+       
+       
 
       
     </motion.div>

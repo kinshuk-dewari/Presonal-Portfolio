@@ -26,8 +26,7 @@ function Skills({}: Props) {
 
         <h3 className='top-36 uppercase text-gray-500 pb-2 tracking-[4px] absolute pt-4 text-center  font-medium text-lg lg:text-xl xl:pt-8'>Hover over a skill to know them</h3>  
 
-        {/* <div className="grid  grid-cols-2 md:grid-cols-4 gap-5  ">   */}
-        <div className="grid grid-cols-4 gap-5  ">  
+        <div className="grid grid-cols-4 gap-5 absolute  top-56">  
           
             <SkillR directionright image="../mongodb.png"str="MongoDB" />
             <SkillR directionright image="../express.png"str="Express" />
@@ -43,13 +42,18 @@ function Skills({}: Props) {
             <SkillR directionright image="../github.png"str="Github" />
             <SkillR directionright image="../tailwind.png"str="TailWind" />
             <SkillR directionright image="../photoshop-logo-icon-free-vector.png"str="Photoshop" />
-            <SkillR directionright image="../xd.png"str="Adobe XD" />
+            {/* <SkillR directionright image="../xd.png"str="Adobe XD" /> */}
+            <SkillR directionright image="../figma.png"str="Figma" />
             
             <SkillL directionleft image="../html.png" str="HTML"/>
             <SkillL directionleft image="../css.png" str="CSS"/>
             <SkillL directionleft image="../js.png" str="JavaScript"/>
             <SkillL directionleft image="../git.png"str="Git" />          
           
+            <SkillR directionright image="../postgres.jpeg" str="Postgres"/>
+            <SkillR directionright image="../prisma.jpg"str="Prisma" />
+            <SkillR directionright image="../redis.png"str="Prisma" />
+            <SkillR directionright image="../docker.png"str="Docker" />
             
         </div>
 

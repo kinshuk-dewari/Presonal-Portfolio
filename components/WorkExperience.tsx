@@ -20,7 +20,7 @@ function WorkExperience({}: Props) {
             Experience
         </h3>   
 
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x 
+        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x absolute top-48
         snap-mandatory scrollbar-thin scrollbar-thumb-rounded-md
          scrollbar-track-gray-400/20 scrollbar-thumb-[#E2711E]/80'>   
             <ExperienceCard 
@@ -41,7 +41,7 @@ function WorkExperience({}: Props) {
             />   
             <ExperienceCard 
               imageSrc="sai.png"
-              position="Full Stack Web Developer" 
+              position="Full Stack Developer" 
               companyName="SAI Sustainable Agro" 
               techUsed={[
                 { src: '/mongodb.png', alt: 'MongoDb' }, 

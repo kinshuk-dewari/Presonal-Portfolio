@@ -31,7 +31,7 @@ function ExperienceCard({position, companyName,dates, techUsed, description, ima
         viewport={{
             once:true
         }}
-        className=' h-28 w-28 xl:w-32 xl:h-32 shadow-md shadow-green-700 rounded-full object-cover object-center'
+        className=' h-28 w-28 xl:w-32 xl:h-32 shadow-md shadow-green-700 rounded-full object-cover object-center overflow-hidden'
         src={imageSrc} alt={companyName+'image'} 
         
         />

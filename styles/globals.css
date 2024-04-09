@@ -22,42 +22,6 @@ body{
     position: relative;
 }
 
-/* #moving-div {
-    
-    display: flex;
-    margin-top: 10vh;
-    position: absolute;
-    bottom: 3%;
-    white-space: nowrap;
-    padding: 1.2vw;
-    overflow: hidden;
-    width: 44%;
-
-}
-
-#moving-div .move {
-    display: flex;
-    animation-name: mobe;
-    animation-duration: 9s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-#moving-div .move img {
-    height: 1vw;
-    margin: 0 1.2vw;
-}
-
-@keyframes mobe {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-
-} */
 #moving-div {
     display: flex;
     margin-top: 10vh;
@@ -66,7 +30,7 @@ body{
     white-space: nowrap;
     padding: 1.2vw;
     overflow: hidden;
-    width: 44%;
+    /* width: 80%; */
 }
 
 #moving-div .move {

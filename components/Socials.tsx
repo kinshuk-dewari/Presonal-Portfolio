@@ -13,7 +13,7 @@ function Socials({}: Props) {
     <div  className='flex max-h-[20rem] relative overflow-hidden items-center min-h-[50vh] justify-center flex-row p-10 md:p-20 lg:p-40' >
         
         <div id="page1">
-            <div id="moving-div">
+            <div id="moving-div" className='w-[80%] md:w-[44%]'>
                 <div id="blur-left"></div>
                 <div className="move gap-4">
                   <Link href="https://instagram.com/kinshuk_dewari" target="_blank" className='text-base flex flex-col hover:text-[#E2711E] items-center justify-center'>

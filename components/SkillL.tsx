@@ -22,11 +22,7 @@ const SkillL: React.FC<Props> = ({directionleft,image,str}) => {
                 whileInView={{
                     opacity:1,
                     x:0
-                }}
-                // whileInView={{
-                //     opacity:1,
-                //     x:0
-                // }}                
+                }}              
             >
                 <img className='rounded-full border border-gray-500 object-cover 
                 w-12 h-12 md:w-24 md:h-24

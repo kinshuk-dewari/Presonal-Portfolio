@@ -11,7 +11,7 @@ type Props = {}
 function Hero({}: Props) {
 
     const [text] = useTypewriter({
-            words: ["< FullStack.jsx />","< Freelancer.cpp />","< Coffee = Life.exe />","Hackathons.py"],
+            words: ["< FullStack.jsx />","{ Freelancer.cpp }","[ Coffee ] = [ Life.exe ]","__Hackathons.py__"],
             loop: true,   
             typeSpeed:40,                  
             delaySpeed:700,
@@ -19,16 +19,16 @@ function Hero({}: Props) {
     })
         
      return (
-        <motion.div className='h-screen flex flex-row space-y-8 lg:text-7xl items-center justify-center text-left overflow-hidden' 
+        <motion.div className='h-screen relative top-0 flex flex-row space-y-8 lg:text-7xl items-center justify-center text-left overflow-hidden' 
             initial="initial" 
             animate="animate" >
             
             <BackgroundCircles />
             {/* -mb-20  shadow-md shadow-teal-50/40 */}
 
-            <div className='z-20'> 
+            <div className='z-20 '> 
                 
-                <h1 className='text-2xl pb-2 md:text-6xl lg:text-7xl font-semibold px-10 '>
+                <h1 className='text-3xl pb-2 p-2 md:text-6xl lg:text-7xl font-semibold md:px-10 '>
                     <div className='overflow-hidden '>
                         <AnimateWords title="Hi&nbsp;there,&nbsp;I'm&nbsp;"/> <br/>
                     </div>
@@ -73,14 +73,14 @@ function Hero({}: Props) {
                         duration:1.8
                     }} 
                 
-                    className='pt-2 text-center over'>
+                    className='pt-2 gap-2 flex items-center justify-center'>
                     
                     <Link href="#projects" className='gap-2'>  
-                        <button className="hoverButton tracking-[2px] text-sm md:text-xl font-bold">Projects</button>
+                        <button className="hoverButton tracking-[2px] text-xs md:text-xl font-bold">Projects</button>
                     </Link>
 
                     <Link href="#contact" className='gap-2'>                  
-                        <button className="hoverButton tracking-[2px] text-sm md:text-xl font-bold">Contact Me</button>
+                        <button className="hoverButton tracking-[2px] text-xs md:text-xl font-bold">Contact Me</button>
                     </Link>               
 
                     
@@ -88,16 +88,16 @@ function Hero({}: Props) {
 
             </div>            
 
-            <motion.div  className='flex flex-col items-center  gap-2 justify-center text-center overflow-hidden'>
+            <motion.div  className='flex flex-col items-center gap-2 justify-center text-center overflow-hidden'>
                 {/* h-96 md:h-[36rem] xl:h-[42rem] w-full */}
                 <motion.img variants={profileAnimation} className=' flex-shrink-0 
-                w-56 h-auto  md:w-[440px]  xl:w-[560px]
+                w-56 h-auto  md:w-[440px]  xl:w-[540px] 
                 object-cover 
                 z-10 
             ' width={500} height={500} 
                 src="/profile.jpg"  alt={'My Image'} />
                 
-                <motion.h2 variants={riseWithFade} className='text-sm uppercase text-gray-500 pb-2 tracking-[4px] md:tracking-[12px] xl:tracking-[14px] ' >
+                <motion.h2 variants={riseWithFade} className='text-sm md:text-xl font-bold uppercase text-gray-500 pb-2 tracking-[2px] md:tracking-[6px] xl:tracking-[8px] ' >
                     Software Developer
                 </motion.h2>
             </motion.div>
