@@ -55,7 +55,7 @@ const items = [
     title: "Presence",
     description: "A Robust Android ERP system for marking Attendance via Facial recognition and Geo-fencing .",
     header: <div className="flex flex-1 w-full  overflow-hidden h-full min-h-[6rem] rounded-xl dark:bg-dot-white/[0.2] bg-dot-black/[0.2] border border-transparent bg-neutral-100 bg-transparent">
-              <img src="/Presence.gif" className='w-full h-[24em] md:h-auto' alt="" />
+              <img src="/Presence.gif" className='w-full h-[32rem] md:h-auto' alt="" />
             </div>,
     className: "md:row-span-2 ",
     icon: <FaExternalLinkAlt className="h-4 w-4 text-neutral-500" />,

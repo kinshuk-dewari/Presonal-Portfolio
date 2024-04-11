@@ -31,12 +31,12 @@ function Skills({}: Props) {
             <SkillR directionright image="../mongodb.png"str="MongoDB" />
             <SkillR directionright image="../express.png"str="Express" />
             <SkillR directionright image="../react.png"str="React" />
-            <SkillR directionright image="../node.png" str="NodeJs"/>
+            <SkillR directionright image="../node.png" str="Node Js"/>
 
             <SkillL directionleft image="../c.png" str="C"/>
             <SkillL directionleft image="../cpp.png" str="C++"/>
             <SkillL directionleft image="../python.png"str="Python" />
-            <SkillL directionleft image="../mysql.png"str="MySql" /> 
+            <SkillL directionleft image="../mysql.png"str="MySQL" /> 
             
 
             <SkillR directionright image="../github.png"str="Github" />
