@@ -18,10 +18,10 @@ export const Footer = () => {
             <div className='flex md:flex-row gap-10'>
                 <div className='flex flex-col items-start justify-center text-[#D7CBC4] font-bold text-base md:text-2xl'>
                     <span className='pl-2 text-xl text-[#E2711E] uppercase'>Sections</span>
-                    <Link href="#projects" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'> <FaLaptopCode className=' text-gray-400 text-3xl'/> Projects</Link>
-                    <Link href="#achievements" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'><MdOutlineWorkspacePremium className=' text-gray-400 text-3xl'/> Achievements</Link>
-                    <Link href="#experience" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'> <FaListCheck className=' text-gray-400 text-3xl'/> Experience</Link>
-                    <Link href="#skills" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'> <MdOutlineWorkOutline className=' text-gray-400 text-3xl'/>Skills</Link>
+                    <Link href="#projects" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'> <FaLaptopCode className=' text-[#818180] text-3xl'/> Projects</Link>
+                    <Link href="#achievements" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'><MdOutlineWorkspacePremium className=' text-[#818180] text-3xl'/> Achievements</Link>
+                    <Link href="#experience" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'> <FaListCheck className=' text-[#818180] text-3xl'/> Experience</Link>
+                    <Link href="#skills" className=' p-2 flex flex-row gap-6 items-center hover:text-[#E2711E] justify-center'> <MdOutlineWorkOutline className=' text-[#818180] text-3xl'/>Skills</Link>
                 </div>
                 <div className="flex flex-col font-bold text-base md:text-xl" >
                     <span className='pl-4 text-xl uppercase text-[#E2711E]'>Socials</span>

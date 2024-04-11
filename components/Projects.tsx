@@ -42,7 +42,7 @@ const items = [
   
   {
     title: "my wallet",
-    description: "Your E-Wallet, enabling Transfering Money via Phone numbers and simplified Payments through QR code scanning .",
+    description: "Your personal E-Wallet, enabling Transfering Money via Phone numbers and simplified Payments through QR code scanning .",
     // dark:border-white/[0.2]
     header:  <div className="flex flex-1 w-full  overflow-hidden h-full min-h-[6rem] rounded-xl dark:bg-dot-white/[0.2] bg-dot-black/[0.2] border border-transparent bg-neutral-100 bg-transparent">
               <img src="/my wallet.png" className='w-full h-[24em] md:h-auto' alt="" />

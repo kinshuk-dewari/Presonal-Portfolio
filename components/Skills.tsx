@@ -52,7 +52,7 @@ function Skills({}: Props) {
           
             <SkillR directionright image="../postgres.jpeg" str="Postgres"/>
             <SkillR directionright image="../prisma.jpg"str="Prisma" />
-            <SkillR directionright image="../redis.png"str="Prisma" />
+            <SkillR directionright image="../redis.png"str="Redis" />
             <SkillR directionright image="../docker.png"str="Docker" />
             
         </div>
