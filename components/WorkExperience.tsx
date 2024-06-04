@@ -29,14 +29,19 @@ function WorkExperience({}: Props) {
               companyName="Fiever" 
               techUsed={[
                 { src: '/mongodb.png', alt: 'MongoDb' }, 
+                { src: '/express.png', alt: 'Express' }, 
                 { src: '/react.png', alt: 'React' }, 
                 { src: '/node.png', alt: 'Node JS' }, 
+                { src: '/tailwind.png', alt: 'Tailwind Css' 
+                { src: '/redis.png', alt: 'Redis' 
+                { src: '/docker.png', alt: 'Docker' 
                 { src: '/tailwind.png', alt: 'Tailwind Css' 
               }]}
               dates='Sept 2023 - Present'
               description={[
                   "Bob the Builder for your Projects",                   
-                  "Your FullStack Developer"
+                  "Your FullStack Developer",
+                  "That guy for Your job."
               ]}                           
             />   
             <ExperienceCard 
@@ -49,13 +54,13 @@ function WorkExperience({}: Props) {
                 { src: '/node.png', alt: 'Node JS' }, 
                 { src: '/tailwind.png', alt: 'Tailwind Css'}
               ]}
-              dates='Jan 2024 - Present'
+              dates='Jan 2024 - Jun 2024'
               description={[
                   "Creates an intuitive UI/UX using locomotive and framer motion for animations.",
                   "Created a Admin dashboard for performing CRUD operations to the database."                   
               ]}                           
             />   
-            <ExperienceCard 
+{/*             <ExperienceCard 
               imageSrc="upwork.jpg"
               position="Freelancer" 
               companyName="Upwork" 
@@ -70,7 +75,7 @@ function WorkExperience({}: Props) {
                 "Bob the Builder of your Team",                   
                 "That guy for Your job."
               ]}                           
-            />      
+            />       */}
             <ExperienceCard 
               imageSrc="amazon.png"
               position="SDE Intern" 
