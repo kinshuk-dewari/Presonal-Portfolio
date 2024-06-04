@@ -66,7 +66,7 @@ const About = (props: Props) => {
                         </p> 
                         
                         <p className='text-sm pt-2 xl:text-xl  md:text-base'>
-                            I also &#x2764; to participate in {" "}
+                            I &#x2764; to participate in {" "}
                             <span className='text-[#E69254] xl:p-2'>
                                 Hackathons
                             </span> {" "} 
