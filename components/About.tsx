@@ -68,11 +68,13 @@ const About = (props: Props) => {
                         <p className='text-sm pt-2 xl:text-xl  md:text-base'>
                             I &#x2764; to participate in {" "}
                             <span className='text-[#E69254] xl:p-2'>
-                                Hackathons
+                                Hackathons,
                             </span> {" "} 
                             to challenge myself and create impactful solutions. 
                             I am dedicated to advancing my skills 
-                            and making a difference, through my projects.
+                            and making a difference, through my <span className=' text-[#E69254] xl:p-2'>
+                                work  
+                            </span>.
                         </p>
                         
                     </h4>
