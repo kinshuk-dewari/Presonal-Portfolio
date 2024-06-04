@@ -34,8 +34,8 @@ function WorkExperience({}: Props) {
                 { src: '/node.png', alt: 'Node JS' }, 
                 { src: '/tailwind.png', alt: 'Tailwind Css'}, 
                 { src: '/redis.png', alt: 'Redis' }, 
-                { src: '/docker.png', alt: 'Docker' }
-              }]}
+                { src: '/docker.png', alt: 'Docker'}
+              ]}
               dates='Sept 2023 - Present'
               description={[
                   "Bob the Builder for your Projects",                   
