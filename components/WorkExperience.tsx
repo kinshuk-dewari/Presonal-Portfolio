@@ -32,10 +32,9 @@ function WorkExperience({}: Props) {
                 { src: '/express.png', alt: 'Express' }, 
                 { src: '/react.png', alt: 'React' }, 
                 { src: '/node.png', alt: 'Node JS' }, 
-                { src: '/tailwind.png', alt: 'Tailwind Css' 
-                { src: '/redis.png', alt: 'Redis' 
-                { src: '/docker.png', alt: 'Docker' 
-                { src: '/tailwind.png', alt: 'Tailwind Css' 
+                { src: '/tailwind.png', alt: 'Tailwind Css'}, 
+                { src: '/redis.png', alt: 'Redis' }, 
+                { src: '/docker.png', alt: 'Docker' }
               }]}
               dates='Sept 2023 - Present'
               description={[
