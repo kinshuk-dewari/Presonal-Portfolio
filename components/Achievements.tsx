@@ -42,8 +42,7 @@ const Achievements: React.FC = () =>  {
     
     className='h-screen flex overflow-hidden flex-col md:text-left  relative
     justify-center items-center mx-auto text-center  '>
-        <h3 className='text-5xl text-center text-[#E2711E]  lg:text-7xl font-bold px-10 absolute 
-        top-24 uppercase tracking-[4px] md:tracking-[14px]  '>
+        <h3 className=' absolute text-5xl text-center text-[#E2711E]  pb-4 lg:text-7xl font-bold px-10 top-24 uppercase tracking-[4px] md:tracking-[14px]'>
         Achievements
         </h3> 
 {/* 
