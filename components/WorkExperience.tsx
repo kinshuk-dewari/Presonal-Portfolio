@@ -16,7 +16,7 @@ function WorkExperience({}: Props) {
     className='h-screen flex relative overflow-hidden flex-col text-left 
     md:flex-row
     max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='text-5xl text-center text-[#E2711E] pb-2 lg:text-7xl font-bold px-10 absolute top-24 uppercase tracking-[14px] '>
+        <h3 className=' absolute text-5xl text-center text-[#E2711E]  pb-4 lg:text-7xl font-bold px-10 top-24 uppercase tracking-[4px] md:tracking-[14px]'>
             Experience
         </h3>   
 
