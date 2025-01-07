@@ -40,13 +40,13 @@ export const BentoGridItem = ({
     
     <div
     className={cn(
-      "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
+      "row-span-1 rounded-xl group/bento hover:shadow-xl bg-[#0a0a0a] hover:shadow-[#E2711E]/50 transition duration-200 shadow-input shadow-none p-4 hover:bg-black  border-white/40 hover:border-white/[0.2] border justify-between flex flex-col space-y-4",
           className
         )}
         >
         {header}
         <Link href={projectlink} target="_blank">     
-          <div className="group-hover/bento:scale-105  group-hover/bento:text-[#e2711e] rounded-md transition duration-200">
+          <div className="group-hover/bento:  group-hover/bento:text-[#e2711e] rounded-md transition duration-200">
             <div className="flex  items-center justify-start gap-4">
               <div className="font-sans uppercase font-bold text-2xl text-[#E2711E] mb-2 mt-2">
                 {title}

@@ -42,7 +42,7 @@ const Achievements: React.FC = () =>  {
     
     className='h-screen flex overflow-hidden flex-col md:text-left  relative
     justify-center items-center mx-auto text-center  '>
-        <h3 className=' absolute text-5xl text-center text-[#E2711E]  pb-4 lg:text-7xl font-bold px-10 top-24 uppercase tracking-[2px] md:tracking-[14px]'>
+        <h3 className=' absolute text-4xl text-center text-[#E2711E]  pb-4 lg:text-7xl font-bold px-10 top-24 uppercase tracking-[4px] md:tracking-[14px] '>
         Achievements
         </h3> 
 {/* 
@@ -55,7 +55,7 @@ const Achievements: React.FC = () =>  {
               <Link key={key} href={item.link} target="_blank" className='border-b border-white/[0.2] '>
                 <div  className='text-[#c7b6ad] w-[80vw] m-2 max-w-7xl space-y-4 flex flex-row items-start justify-between hover:bg-gray-600/10 hover:text-[#E2711E] transition ease-in-out delay-75 duration-300 overflow-hidden rounded-xl p-2'>
                     <div className='flex flex-col items-start justify-center'>
-                      <h1 className=' text-3xl text-start font-bold capitalize md:text-5xl xl:text-6xl '>{item.name}   </h1>
+                      <h1 className=' text-2xl text-start font-bold capitalize md:text-5xl xl:text-6xl '>{item.name}   </h1>
                       <span className=' text-gray-500  text-sm md:text-lg uppercase'> {item.position} </span>      
                     </div>
                     <FaExternalLinkAlt className="h-4 w-4 text-[#E2711E]" />

@@ -14,8 +14,7 @@ function Hero({}: Props) {
             words: ["< FullStack.jsx />","{ Freelancer.cpp }","[ Coffee ] = [ Life.exe ]","__Hackathons.py__"],
             loop: true,   
             typeSpeed:40,                  
-            delaySpeed:700,
-            
+            delaySpeed:700,            
     })
         
      return (
@@ -24,16 +23,14 @@ function Hero({}: Props) {
             animate="animate" >
             
             <BackgroundCircles />
-            {/* -mb-20  shadow-md shadow-teal-50/40 */}
-
+            
             <div className='z-20 '> 
                 
-                <h1 className='text-3xl pb-2 p-2 md:text-6xl lg:text-7xl font-semibold md:px-10 '>
+                <h1 className='text-3xl pb-2 p-1 md:text-6xl lg:text-7xl font-semibold md:px-10 '>
                     <div className='overflow-hidden '>
                         <AnimateWords title="Hi&nbsp;there,&nbsp;I'm&nbsp;"/> <br/>
                     </div>
-                    <motion.div 
-                    
+                    <motion.div                    
                         className='overflow-hidden '>
                         <span className='text-[#E2711E] font-bold '>
                             <AnimateWd title="Kinshuk&nbsp;Dewari"/>
@@ -80,10 +77,8 @@ function Hero({}: Props) {
                     </Link>
 
                     <Link href="#contact" className='gap-2'>                  
-                        <button className="hoverButton tracking-[2px] text-xs md:text-xl font-bold">Contact Me</button>
-                    </Link>               
-
-                    
+                        <button className="hoverButton tracking-[2px] text-xs md:text-xl font-bold">Connect </button>
+                    </Link> 
                 </motion.div>               
 
             </div>            
@@ -97,8 +92,8 @@ function Hero({}: Props) {
             ' width={500} height={500} 
                 src="/profile.jpg"  alt={'My Image'} />
                 
-                <motion.h2 variants={riseWithFade} className='text-sm md:text-xl font-bold uppercase text-gray-500 pb-2 tracking-[2px] md:tracking-[6px] xl:tracking-[8px] ' >
-                    Software Developer
+                <motion.h2 variants={riseWithFade} className='text-sm md:text-xl font-bold  text-gray-500 pb-2 ' >
+                 <span className='tracking-[0px] text-[#E2711E]'>एक {" "}</span>{" "} Developer
                 </motion.h2>
             </motion.div>
 

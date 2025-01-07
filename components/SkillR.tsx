@@ -13,7 +13,7 @@ const SkillR: React.FC<Props> = ({ directionright,image,str}) => {
     <div className="relative flex group cursor-pointer ">
        <motion.div
                 initial={{
-                    x:{directionright}?100:-100,
+                    x:directionright?100:-100,
                     opacity:0
                 }}
                 transition={{
@@ -25,14 +25,14 @@ const SkillR: React.FC<Props> = ({ directionright,image,str}) => {
                 }}                
             >
                 <img className='rounded-full border border-gray-500 object-cover
-                 h-[5.2rem] w-[5.2rem] md:w-[6.4rem] md:h-[6.4rem]
+                 h-[4rem] w-[4rem] md:w-[6rem] md:h-[6rem]
                 filter  transition duration-300 ease-in-out' src={image}  alt={'My Image'} />
         </motion.div> 
         <div className="absolute opactiy-0 group-hover:opacity-100 transition duration-300 ease-in-out
          group-hover:bg-[#D26412] rounded-full z-0 
-         h-[5.2rem] w-[5.2rem] md:w-[6.4rem] md:h-[6.4rem] ">
+         h-[4rem] w-[4rem] md:w-[6rem] md:h-[6rem] ">
             <div className="flex items-center justify-center h-full opacity-0 hover:opacity-100">
-                <p className=" text-base md:text-xl font-bold text-white  "> {str}</p>
+                <p className=" text-sm md:text-xl font-bold text-white  "> {str}</p>
             </div>
         </div>
       

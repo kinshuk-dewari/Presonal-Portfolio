@@ -13,7 +13,7 @@ function Header({}: Props) {
  
   return (
     
-    <header className="sticky backdrop-blur-sm shadow-md shadow-[#0A0A0A] top-0 flex p-5 items-start  justify-between w-full mx-auto z-30 xl:items-center"> 
+    <header className="sticky backdrop-blur-sm shadow-md shadow-[#D7CBC4]/5 top-0 flex p-5 items-start  justify-between w-full mx-auto z-30 xl:items-center"> 
         <motion.div 
             initial={{
               x :-500,
