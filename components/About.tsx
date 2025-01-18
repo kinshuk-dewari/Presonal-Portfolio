@@ -64,23 +64,25 @@ const About = (props: Props) => {
                             </span> Problems, {" "}
                             
                             <span className=' underline decoration-[#D26412] xl:p-2'>
-                            using technologies
+                            using tech
                             </span>.  
                         </p> 
                         <p className='text-sm pt-2 xl:text-xl flex md:text-base'>
                        
-                            I <FaHeart className='text-red-600 m-1'/> to participate in  
-                            <span className='text-[#E69254] xl:p-2 '>
+                            I <FaHeart className='text-red-600 m-1'/> to participate in  {" "}
+                            <span className='text-[#E69254]'>
                             Hackathons 
-                            </span>  
+                            </span> {" "} 
                             to challenge myself.
                         </p>
                         
                         <p className='text-sm pt-2 xl:text-xl  md:text-base'>
                         
-                            I also practice <span className='text-[#E69254] xl:p-2'>
+                            I also practice{" "} <span className='text-[#E69254] '>
                                 DSA
-                            </span>  time to time.
+                            </span> {" "} time to time, and currently learning about <span className='text-[#E69254] '>
+                                AI Agents
+                            </span> 
                             
                         </p>
                         
