@@ -16,7 +16,7 @@ export const Footer = () => {
                 <Link href="#hero">
                     <div className='uppercase text-[#E2711E] text-3xl md:text-4xl font-bold tracking-[1px] md:tracking-[4px] z-30' >Kinshuk Dewari</div> 
                 </Link>
-                <div>Copyrite &#169;Kinshuk All rights reserved</div>
+                <div>Copyright &#169;KinshukDewari All rights reserved.</div>
             </div>
             <div className='flex md:flex-row gap-10'>
                 <div className='flex flex-col items-start justify-center text-[#D7CBC4] font-bold text-sm md:text-2xl'>
