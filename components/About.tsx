@@ -53,10 +53,8 @@ const About = (props: Props) => {
                         md:w-64 md:rounded-lg xl:w-[500px] xl:h-auto  '
                 />
             <div className='space-y-10 md:px-10 text-center w-screen md:w-full p-4 md:p-0 top-[16rem] md:top-12 md:relative absolute block'>
-                    <h4 className='font-semibold md:text-xl text-center '>
-                    
-                        
-                        
+                    <h4 className='font-semibold md:text-xl flex items-center justify-center '>
+                                           
                         <p className='text-sm pt-2 xl:text-xl  md:text-base'> 
                         I solve {" "}
                             <span className=' text-[#E69254] '>
